@@ -1,0 +1,1 @@
+This is a project for freeCodeCamp where we had to create our personal portfolio using HTML, CSS, and jQuery.
