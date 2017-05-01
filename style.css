@@ -96,7 +96,21 @@ nav ul li a:hover {
 }
 
 .project {
-	margin-bottom: 24px;
+	position: relative;
+	margin: 0 auto 24px auto;
+}
+
+.project h2 {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 100%;
+	
+	display: none;
+}
+
+.project h2:hover {
+	display: contents;
 }
 
 .project img {
@@ -109,3 +123,4 @@ nav ul li a:hover {
 	transform: translate(0px, -10px);
 	opacity: 0.2;
 }
+
