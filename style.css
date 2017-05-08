@@ -1,6 +1,9 @@
-/* Color palette by: */
+/*-------------------- Main Sections --------------------*/
+html {
+	margin: 0;
+	height: 100%;
+}
 
-/*--- Main Sections ---*/
 body{
 	background-color: #404749;
 	margin: 0;
@@ -31,7 +34,7 @@ hr {
 }
 
 
-/*--- Navigation ---*/
+/*-------------------- Navigation --------------------*/
 nav {
 	background-color: #333;
 	position: fixed;
@@ -72,13 +75,13 @@ nav ul li a:hover {
 }
 
 
-/*--- About Section ---*/
+/*-------------------- About Section --------------------*/
 #about {
-	margin-top: 55px;
+	margin-top: 75px;
 }
 
 
-/*--- Projects Section ---*/
+/*-------------------- Projects Section --------------------*/
 #projects p {
 	text-align: center;
 }
@@ -137,7 +140,7 @@ nav ul li a:hover {
 	opacity: 0.5;
 }
 
-/*---Contact Section---*/
+/*-------------------- Contact Section --------------------*/
 #contact p {
 	text-align: center;
 }
@@ -169,13 +172,27 @@ nav ul li a:hover {
 }
 
 
-/*--- Footer Section ---*/
+/*-------------------- Footer Section --------------------*/
+#footer {
+	background-color: #333;
+	margin-bottom: 0;
+}
+
 #footer p {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
 	text-align: center;
 }
 
 #footer img {
-	float: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
 }
